@@ -28,6 +28,8 @@ simple Vue site that can translate your movie subtitles into desired language
 - [School canteen app](https://jidelna.techbrick.cz/)  \
 Android app to order lunch in my school. Utilizes an complicated python API that
 interacts with the canteen's web app using selenium.
+- [Proburese.cz](https://proburese.cz/)
+  - ["this week i'll make a site that'll go viral on czech internet"](https://dulik.net/posts/fullstack-proburese/)
 
 ## Games and stuff
 
