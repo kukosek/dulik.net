@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dulik-blog
+  labels:
+    app: dulik-blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dulik-blog
+  template:
+    metadata:
+      labels:
+        app: dulik-blog
+    spec:
+      containers:
+      - name: dulik-blog
+        image: lukasdulik/apps:blog
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred
